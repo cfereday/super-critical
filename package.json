@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/cfereday/super-critical#readme",
   "dependencies": {
-    "docker-hub-api": "^0.8.0"
-  }
+    "docker-hub-api": "^0.8.0",
+    "snyk": "^1.508.0"
+  },
+  "snyk": true
 }
