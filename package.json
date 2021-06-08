@@ -19,7 +19,7 @@
   "dependencies": {
     "docker-hub-api": "^0.8.0",
     "handlebars": "4.0.0",
-    "lodash": "4.17.16",
+    "lodash": "4.17.17",
     "next-auth": "^2.0.1"
   }
 }
